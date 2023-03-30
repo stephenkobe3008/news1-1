@@ -1,0 +1,76 @@
+/* App container styles */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header a {
+  color: #555;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* News List styles */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+li:first-child {
+  margin-top: 0;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+li p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+li span {
+  font-size: 12px;
+  color: #999;
+}
